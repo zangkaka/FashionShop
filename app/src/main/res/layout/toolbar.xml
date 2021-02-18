@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:minHeight="?attr/actionBarSize"
+    app:contentInsetLeft="10dp"
+    app:contentInsetRight="10dp"
+    app:contentInsetStart="10dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:padding="16dp"
+        android:src="@drawable/menu2" />
+
+    <customfonts.MyTextView
+        android:id="@+id/eshop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="45dp"
+        android:layout_marginRight="45dp"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textAllCaps="true"
+        android:textColor="@color/White"
+        android:textSize="@dimen/sp_16"
+        android:textStyle="bold" />
+
+</androidx.appcompat.widget.Toolbar>
+
+
